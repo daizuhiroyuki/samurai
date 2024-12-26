@@ -1,0 +1,45 @@
+/* 18.5 display: inline;
+display: inline;を指定すると、その要素は以下のような性質を持つようになります。
+
+要素が横に並んでいく
+幅と高さを指定できない
+左右の余白のみ調整できる
+なお、inline（インライン）は基本的に、block（ブロック）の要素の中で使われます。
+
+
+*/
+
+p {
+    background-color: yellow;
+  }
+  #first-span {
+    /* inline（インライン）には
+    width・heightプロパティが使えず、
+    「幅と高さを指定できない」という性質があります。
+    
+   inline（インライン）の要素に
+   パディングを指定するときは、左右だけにしておきましょう。 
+    */
+    /* width: 500px; */
+    /* height: 500px; */
+   
+    /* margin: 20px; */
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightblue;
+  }
+  #second-span {
+    /* margin: 30px; */
+    /* padding:30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: lightgreen;
+  }
+  #third-span {
+    /* margin: 40px; */
+    /* padding: 40px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: lightgray;
+  }

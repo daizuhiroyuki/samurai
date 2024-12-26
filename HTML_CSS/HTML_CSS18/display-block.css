@@ -1,0 +1,39 @@
+/* 1. 要素が縦に並んでいく
+block（ブロック）には「要素が縦に並んでいく」
+という大きな特徴があります。
+
+
+2. width・heightプロパティで幅と高さを指定できる
+*/
+
+
+#first-paragraph {
+    /* width: 200px; */
+    padding: 100px;
+     background-color: yellow;
+}
+#second-paragraph {
+    /* height: 100px; */
+    margin: 100px;
+     background-color: orange;
+}
+#third-paragraph {
+    /* width: 50%; */
+    /* height: 200px; */
+    padding: 50px;
+    margin: 50px;
+    background-color: pink;
+
+}
+
+/* 補足：displayプロパティの初期値
+ここで一度休憩がてら、
+displayプロパティの初期値をご紹介します。
+HTMLの各要素はdisplayプロパティの初期値が異なります。
+一通り目を通しておいてください。
+
+displayプロパティの値	その値を初期値に持つHTMLの要素
+block（ブロック）	h1～h6、p、div、ul、ol、form、main、header、footer、section、nav、article、aside、body、htmlなど
+inline（インライン）	a、span、img、iframe、video、label、brなど
+inline-block（インラインブロック）	input、button、textarea、selectなど
+none	head、title、meta、linkなど */

@@ -1,0 +1,19 @@
+/* 18.7 display: none;
+display: none;を指定すると、その要素は非表示になります。
+どういうときにdisplay: none;を指定するのかというと、
+例えばレスポンシブデザインを作るときです。
+「パソコンではナビゲーションメニューを表示させるが
+スマートフォンでは非表示にしたい」といった場合に
+display: none;が役立ちます。 */
+
+
+#first-paragraph {
+    background-color: yellow;
+  }
+  #second-paragraph {
+    display: none;
+    background-color: orange;
+  }
+  #third-paragraph {
+    background-color: pink;
+  }

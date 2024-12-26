@@ -1,0 +1,45 @@
+.parent {
+    background-color: whitesmoke;
+}
+
+
+/* :link
+:linkは、未訪問のリンク（a要素など）にスタイルを適用する疑似クラスです。
+なお未訪問とは、「そのリンクにまだアクセスしたことがない状態」のことを指します。
+:linkを使うには、疑似要素と同じように
+セレクタ（要素やクラス、id）の後に:linkをつけるだけでOKです。これは他の疑似クラスでも同様です。 */
+/*a:link {
+    color: orange;
+}
+*/
+
+/*:visited
+:visitedは、訪問済みのリンク（a要素など）
+にスタイルを適用する疑似クラスです。
+なお訪問済みとは、「そのリンクにすでにアクセスしたことがある状態」のことを指します。  */
+ a:visited { 
+    color: green;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: red;
+}
+
+.parent p:nth-child(4) {
+    color: red;
+}
+
+.parent p:nth-of-type(4) {
+    color: blue;
+}
+
+/* .parent :not(p) { 
+    color: orange;
+    text-decoration: line-through;*/
+}
+
+

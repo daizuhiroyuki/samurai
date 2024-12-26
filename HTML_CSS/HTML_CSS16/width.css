@@ -1,0 +1,24 @@
+
+
+/* 
+min-width
+min-widthは幅の最小値を指定するためのプロパティです。
+
+
+max-width
+max-widthは幅の最大値を指定するためのプロパティです。 */
+
+.parent {
+    /* width: 300px; */
+    /* width: 100%; */
+    width: auto;
+    background-color: yellow;    
+  }
+  .child {
+    /* width: 150px; */
+     width: 80%; 
+     /* width: auto; */
+     /* min-width: 300px; */
+        max-width: 600px;
+    background-color: orange;       
+  }

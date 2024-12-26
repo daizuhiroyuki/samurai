@@ -1,0 +1,20 @@
+/* heightをautoで指定する（初期値）
+heightの初期値に設定されているautoについて学びましょう。
+widthの値にautoを指定すると、幅が横いっぱいに広がることはすでに学んだとおりです。
+しかし、heightの場合はautoを指定しても高さが縦いっぱいに広がりません。なぜなら、子要素の高さによって高さが変わるからです。
+例えば、あるdiv要素にheight: auto;を指定したとします。そのdiv要素の中に何も入っていない（子要素がない）場合は高さはゼロになり、p要素が入っていればそのp要素と同じ高さになります。
+
+また、widthと同様にheightの初期値にもautoが設定されているので、上記のようにわざわざheight: auto;と書かなくても同じ結果になります。
+*/
+#one {
+    height: auto;
+    background-color: yellow;    
+  }
+  #two {
+    /* height: auto; */
+    background-color: orange;       
+  }
+  #three {
+    /* height: auto; */
+    background-color: pink;       
+  }

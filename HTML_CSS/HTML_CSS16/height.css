@@ -1,0 +1,16 @@
+/* heightの指定方法
+heightの指定によく使われる単位はpxです。
+widthとは異なり、heightの指定には%があまり使われません。その理由は後述します。
+なお、初期値としてautoが設定されている点はwidthと一緒です。
+heightをpxで指定する
+
+*/
+.parent {
+    height: 300px;
+    background-color: yellow;    
+  }
+  .child {
+    /* height: 150px; */
+    height: 50%;
+    background-color: orange;       
+  }

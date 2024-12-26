@@ -1,0 +1,167 @@
+/* .decoration { */
+    /* font-size: 48px; */
+    /* 以下はキーワードで色を指定しています */
+    /* color: red; */
+ /* }  */
+
+
+
+/* カラーコード
+#ffff00のように、「# + 16進数のカラーコード」で
+色を指定する方法です。
+なお、#ff0000のように同じ数字が連続する場合に限り、
+#f00のように短縮することもできます。
+カラーコード」で検索するとさまざまなページが
+出てくるので、使うときは参考にしてみてください。*/
+
+/* .decoration { 
+    color:#ff0000; 
+}
+ */
+       
+
+/* 
+  RGB・RGBA
+RGBは光の3原色であるRed、Green、Blueの数値で
+色を指定する方法です。rgb(255, 0, 0)のように指定します。
+また、これにAlpha（アルファ値＝透明度）を加えたのが
+RGBAです。rgba(255, 0, 0, 0.5)のように指定します。
+ 
+.decorration {
+      color: rgb(255, 0, 0);
+*/
+
+/*斜体にする
+斜体にするにはfont-styleプロパティにitalicを指定します。
+text-decorations.cssを以下のように編集し、
+ブラウザで出力結果を確認してみてください。 
+ */
+
+ /* .decoration { 
+    font-weight: bold;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "YuGothic";
+    font-style: italic;
+ }
+ */
+
+ /* 行間を変える
+  値の指定にはフォントサイズと同じように
+  pxなどが使えますが
+  単位をつけずに数値だけで指定することで
+  フォントサイズに応じて自動的に行間を計算してくれるので
+  おすすめです。
+  例えば値に4.5を指定すれば、フォントサイズの4.5倍の高さになります。*/
+/* .decoration { 
+    line-height:4.5;
+}*/
+
+/* 文字の間隔を変える 
+文字の間隔（字間）を変えるには
+letter-spacingプロパティを使います。
+値の指定にはフォントサイズと同じようにpxなどが使えますが、
+emを使うことで、フォントサイズに応じて
+相対的に字間が決まるのでおすすめです。
+例えば値に1.5emを指定すれば、フォントサイズの1.5倍の字間になります*/
+
+/* .decoration { 
+    letter-spacing: 1.5em;
+}
+
+/* 文字に下線を引く
+文字に下線を引くにはtext-decorationプロパティに
+underlineを指定します。 */
+
+/* .decoration { 
+    text-decoration: underline;
+}*/
+
+/* 取り消し線を引く
+取り消し線を引くにはtext-decorationプロパティに
+line-throughを指定します。 */
+
+/*.decoration {
+    text-decoration: line-through;
+ }*/
+
+ /* 文字を枠線で囲む
+文字を枠線で囲むにはborderプロパティを使います。
+値は線の種類、線の太さ、線の色の順に半角スペースを空けて書きます。
+ */
+
+ /*.decoration {
+    border: solid 3px red;
+}*/
+
+/* 点線で囲む
+点線で囲むにはdottedを指定します。 */
+
+/*.decoration {
+    border: dotted 3px red;
+}*/
+
+/* 破線で囲む
+破線で囲むにはdashedを指定します。 */
+
+/*.decoration {
+    border: dashed 3px red;
+}*/
+
+/* 二重線で囲む
+二重線で囲むにはdoubleを指定します。
+text-decorations.cssを以下のように編集し
+ブラウザで出力結果を確認してみてください。 */
+/*.decoration {
+    border: double 5px red;
+}*/
+
+/* 文字の上下左右に線を引く
+文字の上下左右に線を引くには以下のプロパティを使います。
+上にだけ線を引く：border-topプロパティ
+下にだけ線を引く：border-bottomプロパティ
+左にだけ線を引く：border-leftプロパティ
+右にだけ線を引く：border-rightプロパティ */
+
+/*.decoration {
+    border-top: solid 3px red;
+    border-bottom: dotted 3px blue;
+    border-left: dashed 3px green;
+   border-right: double 3px gray;
+ }*/
+ .decoration {
+    border-left: dashed 3px red;
+ }
+
+ /* 文字の背景色を指定する
+文字の背景色を指定するには
+background-colorプロパティを使います。 */
+ /*.decoration {
+    background-color: red;
+}*/
+
+/* 文字に影をつける
+文字に影をつけるにはtext-shadowプロパティを使います。
+値は影の右方向の長さ、影の下方向の長さ、影のぼけ具合、影の色の順
+半角スペースを空けて書きます。 */
+/*.decoration {
+    text-shadow: 1px 1px gray;
+}*/
+
+/* 文字の位置を変える
+文字の位置を変えるにはtext-alignプロパティを使います。
+指定できる値は以下のとおりです。
+left：左揃え（初期値）
+center：中央揃え
+right：右揃え */
+
+/*.decoration {
+    text-align: center;
+}*/
+
+.text-bold {
+    font-weight: bold;
+  }
+ 
+
+
+
+

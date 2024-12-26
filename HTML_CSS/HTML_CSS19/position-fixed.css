@@ -1,0 +1,23 @@
+/* 19.6 position: fixed;
+position: fixed;は、
+画面を基準にした絶対位置に配置したうえで
+スクロールしても位置を固定したいときに指定します。
+
+ */
+
+.parent {
+    height: 2000px;
+    background-color: lightcyan;    
+}
+.child {
+    position: fixed;
+     bottom: 0;
+     left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+.background {
+    height: 2000px;
+    background-color: honeydew;    
+}

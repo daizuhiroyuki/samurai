@@ -1,0 +1,39 @@
+/* 19.2 positionプロパティ
+positionプロパティは簡単にいえば、
+「要素をどのように配置するか（要素の位置）」
+を決めるためのプロパティです。
+positionプロパティを使えば、
+例えば以下のようなことを実現できます。
+
+例1. スクロールしてもナビゲーションメニュー
+（ニュース、ブログ、お問い合わせなどのメニュー）を
+画面上部に固定する
+例2. 画像内のテキストを自由に配置する
+
+positionプロパティに指定できる値は以下の4つです。
+
+static	配置方法を指定しない（初期値）
+relative	本来の表示位置を基準にした相対位置
+absolute	親要素を基準にした絶対位置
+fixed	画面を基準にした絶対位置（スクロールしても位置が固定される）
+ */
+
+
+#first-div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+#second-div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+#third-div {
+    position: relative;
+     top: 50px;
+     left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
