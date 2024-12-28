@@ -79,3 +79,26 @@
     content: url("images/line.png");
     margin-left: 18px;
  }
+
+ h3 {
+   font-size: 27px;
+ }
+
+ #concept {
+   margin: 80px auto 80px auto;
+ }
+
+ #concept-flex {
+   display: flex;
+
+ }
+
+ #concept-flex > div {
+   width: 50%;
+   margin: 20px 20px 20px 20px;
+   text-align: center;
+ }
+
+ .concept-photo {
+   width: 80%;
+ }
