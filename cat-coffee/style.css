@@ -102,3 +102,44 @@
  .concept-photo {
    width: 80%;
  }
+
+ #product {
+   background-color:#fafafa;
+   margin-top:20px;
+   margin-bottom: 80px;
+   padding:10px 40px 0px 40px;
+ }
+
+ #product > div {
+   margin-top: 40px;
+   display: flex;
+ }
+
+ #product-left {
+   width:50%;
+   margin:0 20px 0 20px; 
+ }
+
+ #product-right {
+   width:50%;
+   margin:80px 20px 0 20px;
+ }
+
+#product-left > div {
+   position:relative;
+   height: 480px;
+   margin-right: 20px;
+}
+
+#product-right > div {
+   position:relative;
+   height:480px;
+   margin-left:20px;
+}
+
+
+ .product-photo {
+   width:100%;
+ }
+
+ 
