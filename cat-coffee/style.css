@@ -207,3 +207,39 @@
    border-top-width: 1px;
    border-top-style: solid;
  }
+
+ footer {
+   background-color: #04414A;
+   text-align: center;
+   padding: 80px 80px 30px 80px;
+ }
+
+ #footer-logo {
+   margin-bottom: 30px;
+
+ }
+
+ #footer-link {
+   margin-bottom: 50px;
+
+ }
+
+ #footer-link>a {
+   text-decoration: none;
+   margin: 10px;
+   color: #ffffff;
+
+ } 
+
+ #footer-link>a:hover {
+   text-decoration: underline;
+ }
+
+ #sns-footer {
+  text-align: left;
+ }
+
+ #copyright {
+  color: #ffffff;
+  float: right;
+ }
