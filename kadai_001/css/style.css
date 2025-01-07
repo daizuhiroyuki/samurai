@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    max-width: 1080px;
+    margin: 0 auto 0 auto;
+    font-family: "Noto Sans JP", serif;
+    display: block;
+
+}
+
+#nav-pc {
+    font-size: 34px;
+}
+
+#nav-pc ul {
+    display: flex;
+}
+
+#nav-pc li {
+    list-style: none;
+}
