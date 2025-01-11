@@ -1,29 +1,152 @@
 * {
     box-sizing: border-box;
-}
-
-.header-inner {
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* ヘッダー */
+  .header-inner {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-
-body {
-    max-width: 1080px;
-    margin: 0 auto 0 auto;
-    font-family: "Noto Sans JP", serif;
-    display: block;
-
-}
-
-#nav-pc {
+    align-items: center;
+    margin: 20px auto;
+    max-width: 960px;
+  }
+  
+  .header-inner a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* MyProfileの見出し部分 */
+  h1 {
+    margin: 0 0 0 20px;
     font-size: 34px;
-}
-
-#nav-pc ul {
+    border: 1px solid black;
+    padding: 0px 20px;
+  }
+  
+  .home {
+    text-decoration: none;
+  }
+  
+  /* ナビゲーションメニュー */
+  nav .menu {
     display: flex;
-}
-
-#nav-pc li {
+    padding-left: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
     list-style: none;
-}
+  }
+  
+  nav a {
+    font-size: 34px;
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 60px 0 40px;
+    text-align: center;
+    font-size: 34px;
+  }
+  
+  p,
+  li {
+    font-size: 18px;
+  }
+  
+  /* 画像 */
+  img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  /* About */
+  .about-inner {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 960px;
+  }
+  
+  /* 名前 */
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* 丸く切り取る画像 */
+  .circle {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+  }
+  
+  /* プロフィールの説明部分 */
+  .content {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Works */
+  .works-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  
+  /* Worksの画像と説明部分 */
+  .item {
+    margin: 0 10px;
+    padding-bottom: 60px;
+    width: 25%;
+  }
+  
+  /* フッター */
+  footer p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  /* 横幅が767pxまでの場合 */
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 28px;
+    }
+    
+    h2 {
+      padding: 30px 0 20px;
+      font-size: 28px;
+    }
+  
+    nav li {
+      margin: 0 10px;
+    }
+  
+    nav a {
+      font-size: 21px;
+    }
+  
+    .item {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+  }
