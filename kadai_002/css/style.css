@@ -1,0 +1,22 @@
+* {
+ box-sizing: border-box;
+}
+
+.header-inner {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.home {
+    text-decoration: none;
+}
+
+nav .menu {
+    display: flex;
+    
+}
+
+nav li {
+    margin:0 30px;
+}
