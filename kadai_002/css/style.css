@@ -8,15 +8,65 @@
 
 }
 
+.header-inner  a {
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
 .home {
     text-decoration: none;
+
 }
+
+h1 {
+    margin-left: 20px;
+}
+
+
 
 nav .menu {
     display: flex;
-    
+
 }
+
 
 nav li {
     margin:0 30px;
+    list-style: none;
 }
+
+img {
+    width: 100%;
+}
+
+#about {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+
+.circle {
+    border-radius: 50%;
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.about-inner {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1050px;
+    flex-wrap: wrap;
+    
+}
+
+.content {
+    margin: 0 0 auto 20px;
+    padding: 0 20px;
+  }
+  
