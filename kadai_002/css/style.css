@@ -23,6 +23,7 @@
 
 h1 {
     margin-left: 20px;
+    width:120px;
 }
 
 
@@ -59,9 +60,9 @@ img {
 
 .about-inner {
     display: flex;
-    margin: 20px auto;
-    max-width: 1050px;
-    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 950px;
+    justify-content: center;
     
 }
 
@@ -69,4 +70,32 @@ img {
     margin: 0 0 auto 20px;
     padding: 0 20px;
   }
+
+ul li {
+    list-style: none;
+}
+
+
+.bicycle-inner {
+    display: flex;
+    margin:  50px auto;
+    justify-content: center;
+
+}
+
+.item {
+    margin: 0 10px;
+    width:30%;
+}
+
+.title {
+    text-align: center;
+    margin: 10px auto; 
+}
+
+
+
+
+
+
   
