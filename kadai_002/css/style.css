@@ -1,16 +1,17 @@
 * {
- box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .header-inner {
-    display:flex;
+    display: flex;
     justify-content: space-between;
 
 }
 
-.header-inner  a {
+.header-inner a {
     color: black;
     font-weight: bold;
+    font-size: 20px;
 
 }
 
@@ -23,7 +24,8 @@
 
 h1 {
     margin-left: 20px;
-    width:120px;
+    width: 120px;
+
 }
 
 
@@ -35,18 +37,20 @@ nav .menu {
 
 
 nav li {
-    margin:0 30px;
+    margin: 0 30px;
     list-style: none;
 }
 
 img {
     width: 100%;
+    max-width: 1920px;
 }
 
 #about {
     text-align: center;
     text-decoration: underline;
-    
+    font-size: 30px;
+
 }
 
 
@@ -60,16 +64,17 @@ img {
 
 .about-inner {
     display: flex;
+    flex-wrap: wrap;
     margin: 50px auto;
     max-width: 950px;
     justify-content: center;
-    
+
 }
 
 .content {
     margin: 0 0 auto 20px;
     padding: 0 20px;
-  }
+}
 
 ul li {
     list-style: none;
@@ -78,24 +83,33 @@ ul li {
 
 .bicycle-inner {
     display: flex;
-    margin:  50px auto;
+    flex-wrap: wrap;
+    margin: 0px auto;
     justify-content: center;
-
+    max-width: 960px;
 }
 
 .item {
     margin: 0 10px;
-    width:30%;
+    width: 30%;
 }
 
 .title {
     text-align: center;
-    margin: 10px auto; 
+    margin: 10px auto;
 }
 
 
+@media screen and  (max-width: 600px) {
 
+    .item {
+        width: 100%;
+        text-align: center;
+    }
 
+    .about-inner {
+        width: 100%;
+        
+    }
 
-
-  
+}
